@@ -20,23 +20,27 @@ body {
 }
 
 #content {
-  padding: 20px;
-  background: rgba(255,255,255,.85);
+  padding: 2px;
+  background: rgba(216, 211, 214, 0.85);
+
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: #8f0f0f;
+  text-align: center;
 }
 
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+  color: goldenrod;
 }
 
 h2 {
   font-size: 1.5em;
   margin-top: .5em;
+  color: yellowgreen;
 }
 
 h3 {
@@ -56,12 +60,14 @@ p {
 }
 
 a {
-  color: black;
+  color: rgb(134, 8, 8);
   text-decoration: none;
+  
 }
 
 a:hover {
   text-decoration: underline;
+
 }
 
 @media only screen and (max-width: 1042px) {
